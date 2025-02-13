@@ -24,4 +24,5 @@ const escuela = new EscuelaDigital('EDteam');
 escuela.agregarCurso('JavaScript');
 escuela.agregarCurso('TypeScript');
 escuela.agregarCurso('Angular');
+escuela.agregarCurso('NodeJS');
 escuela.verCursos();
