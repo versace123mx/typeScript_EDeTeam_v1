@@ -1,10 +1,8 @@
 class EscuelaDigital{
-    nombre: string;
+    //nombre: string;
     cursos: string[] = [];
 
-    constructor(nombre: string){
-        this.nombre = nombre;
-    }
+    constructor(public nombre: string){}
 
     //Metodo para agregar cursos
     agregarCurso(curso: string){

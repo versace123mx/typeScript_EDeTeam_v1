@@ -1,8 +1,9 @@
 "use strict";
 class EscuelaDigital {
     constructor(nombre) {
-        this.cursos = [];
         this.nombre = nombre;
+        //nombre: string;
+        this.cursos = [];
     }
     //Metodo para agregar cursos
     agregarCurso(curso) {
